@@ -190,7 +190,7 @@ img {
     font-weight: var(--font-semi);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and(max-width: 768px) {
     .nav__menu {
         position: fixed;
         top: var(--header-height);
@@ -431,6 +431,11 @@ img {
 
 .work__img img:hover {
     transform: scale(1.1);
+}
+
+.work__img a {
+    color: var(--first-color);
+    font-weight: 900;
 }
 
 .text {
